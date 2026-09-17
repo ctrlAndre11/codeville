@@ -1,0 +1,376 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #f3f2f2;
+    color: #201f1d;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    /* max-height: 100%; */
+}
+
+.body {
+    width: 75%;
+    margin: 100px auto;
+
+}
+li {
+    display: inline;
+}
+
+.header-section {
+    position: sticky;
+    top: 0;
+    border-bottom: 0.5px solid black; 
+}
+
+.header {
+    width: 75%;
+    margin: 0px auto;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    padding: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+.btn-nav {
+    margin: 0px 0px 0px 10px;
+    
+}
+
+.hero strong {
+    color: #b68235;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.hero h1 {
+    font-size: 86px;
+    line-height: 88px;
+    padding: 30px 0px;
+}
+
+.hero-wrap {
+    display: flex;
+    align-items: start;
+}
+
+.hero-description {
+    max-width: 55%;
+    padding-right: 30px;
+    line-height: 30px;
+    font-size: 22px;
+}
+
+.hero-sub-section {
+    max-width: 50%;
+    border-left: 0.5px solid black;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+.hero-sub-section span {
+    color: grey;
+    padding-right: 15px;
+}
+
+.hero-sub-section p {
+    padding-bottom: 10px;
+}
+
+.hero .btn {
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.hero .btn button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+
+.hero .btn button:first-child {
+    border: 1px #b68235 solid;
+    color: #b68235;
+}
+.work header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.work header h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.work header p {
+    font-size: 20px;
+    color: gray;
+}
+
+.work main article {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(186, 186, 186);
+    padding: 30px 0px;
+}
+
+.work main article .year {
+    width: 10%;
+    font-size: 24px;
+}
+
+.work main article .title {
+    width: 35%;
+
+}
+
+.work main article .title  h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.work main article .title i {
+    color: gray;
+}
+
+.work main article .description {
+    width: 35%;
+    padding-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.work main article .note {
+    width: 20%;
+    font-size: 18px;
+    color: #b68235;
+    text-transform: uppercase;
+}
+
+.about .about-wrap {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: start;
+}
+
+.about .about-picture {
+    /* max-width: 50%; */
+    width: 50%;
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: #f5ecd1;
+}
+
+.about .about-picture img{
+    width: 400px; 
+     height: 475px;
+}
+
+.about .about-wrap main h3 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about .about-wrap main p {
+    line-height: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.about .about-wrap  p:first-child {
+    color: red;
+}
+.about .about-wrap main .about-description {
+    padding-bottom: 30px;
+}
+
+.about .about-wrap .one {
+    border-bottom: 1px solid gray;
+}
+
+.about main article {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.about main article div {
+    width: 45%;
+}
+
+.about main article div h4{
+    font-size: 18px;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.about main article div .second-lang {
+    margin-top: 20px;
+}
+
+.services h3 {
+    font-size: 40px;
+    padding-bottom: 10px;
+    /* font-weight: 600; */
+}
+
+.services .service-description {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 55%;
+}
+
+.services .services-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.services .services-wrap article {
+    width: 32%;
+    border: 1px solid rgb(202, 202, 202);
+    padding: 30px 20px;  
+    margin-bottom: 100px;
+    border-radius: 3px;
+}
+
+.services .services-wrap article h5 {
+    font-size: 20px;
+    color: #b68235;
+    padding-bottom: 20px;
+}
+
+.services .services-wrap article h4 {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.services .services-wrap article p {
+    font-size: 18px;
+    max-width: 80%;
+    font-weight: 500;
+}
+
+.services .teams h5{
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.services .teams .teams-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.services .teams .teams-grid p {
+    padding: 30px 0;
+    font-size: 24px;
+    border: 1px solid rgb(202, 202, 202);
+    text-align: center;
+    border-right: none;
+    color: #b68235;
+}
+
+.services .teams .teams-grid b {
+    color: gray;
+}
+
+.contact main {
+    display: flex;
+    gap: 50px;
+}
+
+.contact main article {
+    max-width: 50%;
+}
+
+.contact main article h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.contact main article p {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+#write {
+    color: gray;
+}
+
+#write a {
+    color: #b68235;
+}
+
+.contact main form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact main form input {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 3px;
+}
+
+.contact main form label {
+    text-transform: uppercase;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.contact main form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 3px;
+}
+
+.contact main form button {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #b68235;
+    color: #b68235;
+    border-radius: 3px;
+}
+
+footer {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(202, 202, 202);
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: rgb(202, 202, 202);
+}
+
+.footer .foot-term {
+    text-transform: uppercase;
+}
